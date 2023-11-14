@@ -1,0 +1,205 @@
+body, html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #050618;
+}
+nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 3.13vw;
+    position: fixed;
+    z-index: 100;
+    margin-left: 1.56vw;
+    margin-top: 1.35vw;
+
+}
+nav a {
+    text-decoration: none;
+    font-family: "FormaDJRCyrillicMicroMedium";
+    font-size: 0.94vw;
+    line-height: 78%;
+    letter-spacing: 0.015vw;
+    color: white;
+    opacity: .35;
+}
+nav a:hover {
+    opacity: 1;
+}
+p {
+    font-family: "FormaDJRCyrillicMicroMedium";
+    font-size: 1.25vw;
+    line-height: 115%;
+    letter-spacing: 0.015vw;
+    color: #6C6C7F;
+    text-align: center;
+}
+.first-screen p {
+    position: relative;
+    z-index: 90;
+    margin: 0 auto;
+    padding-top: 7.19vw;
+}
+h1 {
+    font-family: "LeMurmureRegular";
+    font-size: 23.44vw;
+    line-height: 78%;
+    color: #6C6C7F;
+    text-align: center;
+    margin-top: -1vw;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+.le-murmure-small {
+    font-family: "LeMurmureRegular";
+    font-size: 2.35vw;
+    line-height: 111%;
+    color: #6C6C7F;
+    text-align: center;
+}
+.first-screen {
+    position: relative;
+    background-image: url(../images/background-shadow.svg), url(../images/snow-background-gif.gif);
+    width: 100vw;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* z-index: -90; */
+}
+.first-screen-text-and-images {
+    white-space: nowrap;
+}
+.first-screen-text-and-images {
+    width: 100vw;
+    height: 28.8vw;
+}
+@keyframes opacity-to-1 {
+    from {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes opacity-to-2 {
+    from {
+        opacity: 0;
+    }
+    24% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+        margin-top: -16vw;
+    }
+    to {
+        opacity: 1;
+        margin-top: 53.2vw;
+    }
+}
+@keyframes opacity-to-0 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.sasha-1 {
+    position: absolute;
+    background-image: url(../images/sasha-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9.32vw;
+    height: 26.35vw;
+    z-index: 4;
+    margin-top: -16vw;
+    left: 19.2vw;
+    animation: 0s linear 1.5s forwards opacity-to-0;
+}
+.sasha-2 {
+    position: absolute;
+    background-image: url(../images/sasha-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9.32vw;
+    height: 26.35vw;
+    z-index: 4;
+    margin-top: -16vw;
+    left: 26.3vw;
+    opacity: 0;
+    animation: 2s linear 0s forwards opacity-to-1;
+
+}
+.sasha-3 {
+    position: absolute;
+    background-image: url(../images/sasha-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9.32vw;
+    height: 26.35vw;
+    z-index: 4;
+    margin-top: -16vw;
+    left: 26.3vw;
+    opacity: 0;
+    animation: 2.5s linear 1.27s forwards opacity-to-2;
+}
+.ladder {
+    position: relative;
+    width: 5.68vw;
+    height: auto;
+    z-index: 0;
+    margin-left: 28.8vw;
+    margin-top: 0.5vw;
+}
+.pinguin-on-text {
+    position: relative;
+    width: 3.23vw;
+    height: auto;
+    z-index: 0;
+    margin-left: 27.65vw;
+}
+.pinguin-under-text, .iceberg-with-pinguins {
+    position: relative;
+    z-index: 1;
+    top: -6.2vw;
+}
+.pinguin-under-text {
+    width: 3.23vw;
+    height: auto;
+    margin-left: 7vw;
+}
+.iceberg-with-pinguins {
+    width: 35.89vw;
+    height: auto;
+    margin-left: 36vw;
+}
+.iceberg {
+    position: relative;
+    width: 33.02vw;
+    height: auto;
+    z-index: 0;
+    top: -6.25vw;
+    margin-left: -15.3vw;
+}
+.background-sea {
+    position: relative;
+    width: 100vw;
+    height: 37.92vw;
+    background-image: url(../images/background-sea.svg);
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
