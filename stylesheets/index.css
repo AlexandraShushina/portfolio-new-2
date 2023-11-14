@@ -154,7 +154,7 @@ h1 {
     margin-top: -16vw;
     left: 26.3vw;
     opacity: 0;
-    animation: 2.5s linear 1.27s forwards opacity-to-2;
+    animation: 2.5s linear 1.3s forwards opacity-to-2;
 }
 .ladder {
     position: relative;
