@@ -154,7 +154,7 @@ h1 {
     margin-top: -16vw;
     left: 26.3vw;
     opacity: 0;
-    animation: 2.5s linear 1.3s forwards opacity-to-2;
+    animation: 2.5s linear 1.27s forwards opacity-to-2;
 }
 .ladder {
     position: relative;
@@ -200,6 +200,15 @@ h1 {
     height: 37.92vw;
     background-image: url(../images/background-sea.svg);
     z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-sea-2 {
+    position: relative;
+    width: 100vw;
+    height: 68.59vw;
+    background-image: url(../images/background-sea-2.svg);
+    z-index: 5;
     background-repeat: no-repeat;
     background-size: cover;
 }
